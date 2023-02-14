@@ -1,15 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Classes_and_Methods_3
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
+            Math.MyMaths();
+            Math.MyMaths(182, 3);
+            Math.MyMaths(a: 1000, b: 9);
+
+            Console.ReadLine();
+
+
         }
     }
 }
